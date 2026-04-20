@@ -32,26 +32,28 @@
             }
 
             .footer {
+                width: 100%;
                 position: fixed;
                 left: 0;
                 bottom: 0;
                 padding: 16px 16px;
                 column-count: 4;
-                text-align: right;
+                text-align: left;
                 display: grid;
                 grid-template-columns:repeat(4,1fr);
                 align-items: center;
-                background: rgb(255, 94, 0);
+                background: rgb(167, 215, 220);
             }
 
             .sidenav {
-                height: 80%;
+                height: 90%;
                 width: 190px;
                 position: fixed;
                 z-index: 1;
                 top: 0;
                 left: 0;
                 background-color: white;
+                border-right: 1px solid rbg(255, 94, 0);
                 overflow-x: hidden;
                 padding-top: 50px;
             }
@@ -88,10 +90,6 @@ a:hover {
                 .sidenav {padding-top: 50px;}
                 .sidenav a {font-size: 14px;}
             }
-            html {
-                background-image: linear-gradient(to bottom, rgb(245, 245, 245), rgb(167, 215, 220));
-            }
-                
             
         </style>
     </head>
@@ -121,6 +119,9 @@ a:hover {
        </ul>
         <ul style="font-weight: normal; font-size: 14px; color: white; list-style-type: circle;">
     <li>Home</li>
+        </ul>
+      <ul style="font-weight: normal; font-size: 14px; color: white; list-style-type: circle;">
+    <li>idk</li>
         </ul>
 </div>
 </body>
