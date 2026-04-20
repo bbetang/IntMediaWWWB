@@ -23,6 +23,13 @@
                 font-style: normal;
             }
 
+            .header {
+                position: sticky;
+                top: 0;
+                padding: 16px 16px;
+                background: transparent;
+            }
+
             .sidenav {
                 height: 100%;
                 width: 190px;
@@ -32,7 +39,7 @@
                 left: 0;
                 background-color: rbg(167, 215, 220);
                 overflow-x: hidden;
-                padding-top: 20px;
+                padding-top: 40px;
             }
             .sidenav a{
                 padding: 16px 16px 16px 16px;
@@ -76,6 +83,10 @@ a:hover {
     </head>
 
 <body>
+<div class="header" id="myHeader">
+  <h2>My Header</h2>
+</div>
+    
 <div class="sidenav">
     <a href="#casestudies">CASE STUDIES</a>
     <a href="#workshops">WORKSHOPS</a>
