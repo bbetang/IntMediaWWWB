@@ -24,9 +24,16 @@
             }
 
             .header {
+                width: 100%;
                 position: fixed;
+                left: 0;
                 top: 0;
                 padding: 16px 16px;
+                column-count: 4;
+                text-align: left;
+                display: grid;
+                grid-template-columns:repeat(4,1fr);
+                align-items: center;
                 background: transparent;
                 color: rgb(28, 36, 255);
                 font-size: 12px;
@@ -99,6 +106,8 @@ a:hover {
 <body>
 <div class="header" id="myHeader">
   <img src="imagesb/orangestar.png" alt="orangestar" width="18">
+     <br>
+    <h2 style="font-weight: bold; font-size: 14px;">WWWORKBOOK_B</h2>
 </div>
     
 <div class="sidenav">
@@ -109,10 +118,9 @@ a:hover {
 </div>
 
 <div class="main">
-    <h2>WWWORKBOOK B</h2>
     <img src="imagesb/fishbg.png" alt="fishbg" height="630">
 </div>
-
+    
 <div class="footer"> 
      <ul style="font-weight: normal; font-size: 14px; color: white; list-style-type: disc;">
     <li>BECKY TANG</li>
