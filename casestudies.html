@@ -35,7 +35,7 @@
 
             .header {
                 width: 100%;
-                position: fixed;
+                position: flex;
                 left: 0;
                 top: 0;
                 padding: 16px 16px;
@@ -59,7 +59,7 @@
                 padding: 8px 8px;
                 column-count: 4;
                 text-align: left;
-                display: grid;
+                display: flex;
                 grid-template-columns:repeat(4,1fr);
                 align-items: center;
                 background: rgb(28, 36, 255);
@@ -69,7 +69,7 @@
             .sidenav {
                 height: 100%;
                 width: 190px;
-                position: fixed;
+                position: flex;
                 z-index: 1;
                 top: 0;
                 left: 0;
@@ -103,7 +103,7 @@ a:hover {
 }
 
 img {
-display: block;
+display: flex;
 margin-left: auto;
 margin-right: auto;
 }
@@ -113,6 +113,7 @@ margin-right: auto;
                 font-size: 20px;
                 padding: 0px 50px;
                 padding-top: 50px;
+                display: flex;
             }
 
             @media screen and (max-height: 450px) {
